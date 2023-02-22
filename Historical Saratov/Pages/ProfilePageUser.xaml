@@ -1,0 +1,70 @@
+﻿<Page x:Class="Historical_Saratov.Pages.ProfilePageUser"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:hc="https://handyorg.github.io/handycontrol"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Historical_Saratov.Pages"
+      mc:Ignorable="d"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{x:Null}"
+      Title="ProfilePageUser" Height="450" Width="800">
+    <Grid Background="{StaticResource MaterialDesignPaper}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="300*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <materialDesign:Card Margin="20 10 125 0">
+                <WrapPanel>
+                <Image Source="../App_Logo.png" Height="200" Width="200" Margin="20 20 0 0" x:Name="Avatar"/>
+                <StackPanel>
+                    <Label Content="" Margin="10 20 10 0" FontSize="18" FontWeight="SemiBold" x:Name="FN_Label"/>
+                    <Label Content="Role: User" Margin="10 10 10 0" FontSize="14" FontWeight="Light"/>
+                </StackPanel>
+                <Label Content=""  Margin="0 20 10 0" FontSize="18" FontWeight="SemiBold"  x:Name="LN_Label"/>
+                <Label x:Name="ID_Label" Visibility="Hidden"/>
+                </WrapPanel>
+            </materialDesign:Card>
+        <materialDesign:Card Grid.Row="1" Margin="20 10 125 0" >
+            <StackPanel>
+                <hc:ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden" IsInertiaEnabled="True">
+                        <WrapPanel>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        <Image Width="49" Height="49" Source="../App_Logo.png" VerticalAlignment="Center" Margin="10 0 0 0"/>
+                        </WrapPanel>
+                    </hc:ScrollViewer>
+                <materialDesign:Card Width="130" HorizontalAlignment="Left"  materialDesign:ElevationAssist.Elevation="Dp4" >
+                    <WrapPanel Margin="10 0 0 0">
+                        <TextBlock Text="Achievement:" FontWeight="SemiBold" FontSize="12"/>
+                        <TextBlock Text ="45" x:Name="Ach_Count" Margin="3 0 3 0" FontWeight="Regular" FontSize="12"/>
+                        <TextBlock Text ="/ 45" FontWeight="Regular" FontSize="12"/>
+                    </WrapPanel>
+                </materialDesign:Card>
+            </StackPanel>
+        </materialDesign:Card>
+        <materialDesign:Card Grid.Row="2" Margin="20 10 125 15">
+            <ScrollViewer>
+                <StackPanel>
+                    
+                </StackPanel>
+            </ScrollViewer>
+        </materialDesign:Card>
+        
+    </Grid>
+</Page>

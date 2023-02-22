@@ -1,0 +1,192 @@
+﻿<Page x:Class="Historical_Saratov.Pages.ArchPageAdmin"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:hc="https://handyorg.github.io/handycontrol"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Historical_Saratov.Pages"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{x:Null}"
+      mc:Ignorable="d"
+      Title="ArchPageAdmin" Height="450" Width="800">
+      <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"></RowDefinition>
+            <RowDefinition Height="150*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <materialDesign:Snackbar
+            IsActive="False"
+            x:Name="SaveSnackbar"
+            MessageQueue="{materialDesign:MessageQueue}"
+        />
+        <materialDesign:Snackbar
+            IsActive="False"
+            x:Name="EditSnackbar"
+            MessageQueue="{materialDesign:MessageQueue}"
+        />
+        <materialDesign:Card Margin="20 10 125 20" Grid.Row="0">
+            <hc:ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" IsInertiaEnabled="True">
+                <ListView
+                    x:Name="LVArch"
+                    ItemsSource="{Binding RelativeSource={RelativeSource AncestorType=Page}, Path=Arch}">
+                    <ListView.View>
+                    <GridView>
+                        <GridViewColumn 
+                            DisplayMemberBinding="{Binding  ID}"
+                            Header="ID" />
+                        <GridViewColumn
+                            DisplayMemberBinding="{Binding FirstName}"
+                            Header="FirstName" />
+                        <GridViewColumn
+                            DisplayMemberBinding="{Binding LastName}"
+                            Header="LastName" />
+                        <GridViewColumn
+                            DisplayMemberBinding="{Binding Patronymic}"
+                            Header="Patronymic">
+                        </GridViewColumn>
+                        <GridViewColumn
+                            DisplayMemberBinding="{Binding Description}"
+                            Header="Description">
+                        </GridViewColumn>
+                        <GridViewColumn
+                            DisplayMemberBinding="{Binding YearsofLive}"
+                            Header="Years of Live" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+           </hc:ScrollViewer>
+        </materialDesign:Card>
+        <ScrollViewer Grid.Row="1">
+        <materialDesign:Card  Margin="20 0 110 20">
+            <WrapPanel>
+                <StackPanel>
+                    <TextBox
+                        IsEnabled="False"
+                        Text="{Binding ElementName=LVArch, Path=SelectedItem.ID}"
+                        x:Name="TB_ID"
+                        Margin="10 5 10 0"
+                        Height="60"
+                        Width="100"
+                        FontSize="18"
+                        materialDesign:HintAssist.Hint="ID"
+                        BorderThickness="2"
+                        BorderBrush="{DynamicResource MaterialDesignDivider}"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    />
+                    <TextBox
+                        Text="{Binding ElementName=LVArch, Path=SelectedItem.LastName}"
+                        x:Name="TB_LastName"
+                        Margin="10 5 10 0"
+                        Height="60"
+                        Width="100"
+                        FontSize="18"
+                        materialDesign:HintAssist.Hint="LastName"
+                        BorderThickness="2"
+                        BorderBrush="{DynamicResource MaterialDesignDivider}"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    />
+                </StackPanel>
+                <StackPanel>
+                    <TextBox
+                        Text="{Binding ElementName=LVArch, Path=SelectedItem.Description}"
+                        x:Name="TB_Description"
+                        Margin="0 5 10 0"
+                        Height="60"
+                        Width="180"
+                        FontSize="18"
+                        materialDesign:HintAssist.Hint="Description"
+                        BorderThickness="2"
+                        BorderBrush="{DynamicResource MaterialDesignDivider}"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    />
+                    <TextBox
+                        Text="{Binding ElementName=LVArch, Path=SelectedItem.Patronymic}"
+                        x:Name="TB_Patronymic"
+                        Margin="0 5 10 0"
+                        Height="60"
+                        Width="180"
+                        FontSize="18"
+                        materialDesign:HintAssist.Hint="Patronymic"
+                        BorderThickness="2"
+                        BorderBrush="{DynamicResource MaterialDesignDivider}"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    />
+                </StackPanel>
+                <StackPanel>
+                    <TextBox
+                        Text="{Binding ElementName=LVArch, Path=SelectedItem.FirstName}"
+                        x:Name="TB_FirstName"
+                        Margin="0 5 10 0"
+                        Height="60"
+                        Width="180"
+                        FontSize="18"
+                        materialDesign:HintAssist.Hint="FirstName"
+                        BorderThickness="2"
+                        BorderBrush="{DynamicResource MaterialDesignDivider}"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    />
+                    <TextBox
+                        Text="{Binding ElementName=LVArch, Path=SelectedItem.YearsofLive}"
+                        x:Name="TB_YOL"
+                        Margin="0 5 10 0"
+                        Height="60"
+                        Width="180"
+                        FontSize="18"
+                        materialDesign:HintAssist.Hint="Years of Live"
+                        BorderThickness="2"
+                        BorderBrush="{DynamicResource MaterialDesignDivider}"
+                        Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    />
+                </StackPanel>
+                <StackPanel>
+                    <WrapPanel Margin="0 10 0 0">
+                        <Button 
+                            Click="Btn_Save_Arch"
+                            Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                            materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                            materialDesign:ButtonAssist.CornerRadius="10"
+                        >
+                            <materialDesign:PackIcon Kind="ContentSave" />
+                        </Button>
+                        <Button 
+                            Click="Btn_Update_Arch"
+                            Margin=" 3 0 0 0"
+                            Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                            materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                            materialDesign:ButtonAssist.CornerRadius="10"
+                        >
+                            <materialDesign:PackIcon Kind="Update" />
+                        </Button>
+                        <Button 
+                            Click="Btn_Delete_Arch"
+                            Margin=" 3 0 0 0"
+                            Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                            Background="Crimson"
+                            materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                            materialDesign:ButtonAssist.CornerRadius="10"
+                        >
+                            <materialDesign:PackIcon Kind="Delete" />
+                        </Button>
+                    </WrapPanel>
+                    <Button 
+                        Margin="0 10 0 0"
+                        Click="Btn_Exel_Arch"
+                        Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                        materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                        materialDesign:ButtonAssist.CornerRadius="10"
+                    >
+                        <materialDesign:PackIcon Kind="MicrosoftExcel" />
+                    </Button>
+                    <hc:SearchBar
+                        x:Name="SearchBar"
+                        hc:InfoElement.Placeholder="Search"
+                        hc:InfoElement.TitlePlacement="Left" 
+                        Style="{StaticResource SearchBarExtend}"
+                        Margin="0 10 0 0" TextChanged="SearchBar_OnTextChanged" />
+                </StackPanel>
+            </WrapPanel>
+        </materialDesign:Card>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,158 @@
+﻿<Window x:Class="Historical_Saratov.AdminWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Historical_Saratov"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{x:Null}"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid  Background="{StaticResource MaterialDesignPaper}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="700*"></ColumnDefinition>
+        </Grid.ColumnDefinitions> 
+        <StackPanel
+            Grid.Column="0"
+            materialDesign:ShadowAssist.ShadowDepth="Depth0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            Margin="30 0 0 0"
+        >
+            <TabControl
+                VerticalContentAlignment="Top"
+                materialDesign:ColorZoneAssist.Mode="PrimaryMid"
+                Style="{StaticResource MaterialDesignNavigationRailTabControl}">
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel
+                            Width="auto"
+                            Height="auto"
+                            MouseLeftButtonDown="Mainn_btn"
+                        >
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="Home" />
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                Text="Home"
+                            />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+                
+                
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel
+                            Width="auto"
+                            Height="auto"
+                            MouseLeftButtonDown="Build_btn"
+                            >
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="Domain" />
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                Text="Build"
+                            />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel
+                            Width="auto"
+                            Height="auto"
+                            MouseLeftButtonDown="Architector_btn"
+                            >
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="Pillar" />
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                Text="Architector"
+                                FontSize="14"
+                            />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel
+                            Width="auto"
+                            Height="auto"
+                            MouseLeftButtonDown="Profile_btn">
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="Account" />
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                Text="Profile"
+                            />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel
+                            Width="auto"
+                            Height="auto"
+                            MouseLeftButtonDown="Setting_btn"
+                            >
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="Cog" />
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                Text="Settings"
+                            />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel
+                            Width="auto"
+                            Height="auto"
+                            MouseLeftButtonDown="Exit_btn"
+                            >
+                            <materialDesign:PackIcon
+                                Width="24"
+                                Height="24"
+                                HorizontalAlignment="Center"
+                                Kind="ExitToApp" />
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                Text="Exit"
+                            />
+                        </StackPanel>
+                    </TabItem.Header>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+        
+        <Frame
+            Grid.Column="1"
+            x:Name="MyFrame"
+            Source="Pages/MainPageAdmin.xaml"
+            NavigationUIVisibility="Hidden"
+        >
+        </Frame>
+    </Grid>
+</Window>

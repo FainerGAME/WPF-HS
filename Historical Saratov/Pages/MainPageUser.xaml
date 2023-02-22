@@ -1,0 +1,233 @@
+﻿<Page x:Class="Historical_Saratov.Pages.MainPageUser"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:hc="https://handyorg.github.io/handycontrol"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Historical_Saratov.Pages"
+      mc:Ignorable="d"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{x:Null}"
+      Title="MainPageUser" Height="450" Width="800">
+    
+    <ScrollViewer>
+    <Grid Background="{StaticResource MaterialDesignPaper}">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="350*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        
+        <ScrollViewer Grid.Row="0" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Hidden"  >
+        <WrapPanel Margin="0 10 0 0">
+            <materialDesign:Card
+                Height="100"
+                Width="200"
+                materialDesign:ElevationAssist.Elevation="Dp2"
+                Margin="20 20 0 20"
+            >
+           
+                <StackPanel
+                    Orientation="Vertical">
+                    <Image Source="../App_Logo.png"
+                           Height="100"
+                    />
+                    <TextBlock
+                        Text="Title"
+                        FontSize="28"
+                        FontWeight="SemiBold"
+                    />
+                    <TextBlock
+                        Text="Teg"
+                        FontSize="14"
+                        FontStyle="Italic"
+                    />
+                    <TextBlock
+                        Text="Description"
+                        FontSize="18"
+                    />
+                </StackPanel>
+            </materialDesign:Card>
+            
+            <materialDesign:Card
+                Height="100"
+                Width="200"
+                Margin="20 20 0 20"
+            >
+           
+                <StackPanel
+                    Orientation="Vertical">
+                    <Image Source="../App_Logo.png"
+                           Height="100"
+                    />
+                    <TextBlock
+                        Text="Title"
+                        FontSize="28"
+                        FontWeight="SemiBold"
+                    />
+                    <TextBlock
+                        Text="Teg"
+                        FontSize="14"
+                        FontStyle="Italic"
+                    />
+                    <TextBlock
+                        Text="Description"
+                        FontSize="18"
+                    />
+                </StackPanel>
+            </materialDesign:Card>
+            
+            <materialDesign:Card
+                Height="100"
+                Width="200"
+                Margin="20 20 0 20"
+            >
+           
+                <StackPanel
+                    Orientation="Vertical">
+                    <Image Source="../App_Logo.png"
+                           Height="100"
+                    />
+                    <TextBlock
+                        Text="Title"
+                        FontSize="28"
+                        FontWeight="SemiBold"
+                    />
+                    <TextBlock
+                        Text="Teg"
+                        FontSize="14"
+                        FontStyle="Italic"
+                    />
+                    <TextBlock
+                        Text="Description"
+                        FontSize="18"
+                    />
+                </StackPanel>
+            </materialDesign:Card>
+        </WrapPanel>
+       </ScrollViewer>
+        
+        <StackPanel Grid.Row="1">
+            <hc:SearchBar
+                hc:InfoElement.Placeholder="Поиск"
+                hc:InfoElement.TitlePlacement="Left" 
+                Style="{StaticResource SearchBarExtend}"
+                Margin="20 0 125 20"
+            />
+            <materialDesign:Card Margin="20 0 125 20">
+                <StackPanel>
+                   <TextBlock
+                       Text="Категории"
+                       FontSize="28"
+                       FontWeight="400"
+                   />
+                   <TextBlock
+                       Text="Самые распространенные и часто выбираемые архитекрурные решения зданий"
+                       FontSize="14"
+                       FontWeight="200"
+                       />
+                   
+                   <hc:ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden" IsInertiaEnabled="True">
+                   <WrapPanel Orientation="Horizontal" Margin="0 20 0 0">
+                       <materialDesign:Card Margin="15 0 15 0 " Cursor="Hand">
+                       <StackPanel Height="200" Width="200">
+                           <Image Source="../App_Logo.png"/>
+                           <TextBlock
+                               FontSize="18"
+                               FontWeight="Medium"
+                               Text="Test1"
+                           />
+                           <TextBlock
+                               FontSize="15"
+                               FontWeight="Regular"
+                               Text="Desc "
+                               />
+                       </StackPanel>
+                   </materialDesign:Card>
+                       <materialDesign:Card Margin="15 0 15 0 ">
+                       <StackPanel Height="200" Width="200">
+                           <Image Source="../App_Logo.png"/>
+                           <TextBlock
+                               FontSize="18"
+                               FontWeight="Medium"
+                               Text="Test1"
+                           />
+                           <TextBlock
+                               FontSize="15"
+                               FontWeight="Regular"
+                               Text="Desc "
+                               />
+                       </StackPanel>
+                   </materialDesign:Card>
+                       <materialDesign:Card Margin="15 0 15 0 ">
+                       <StackPanel Height="200" Width="200">
+                           <Image Source="../App_Logo.png"/>
+                           <TextBlock
+                               FontSize="18"
+                               FontWeight="Medium"
+                               Text="Test1"
+                           />
+                           <TextBlock
+                               FontSize="15"
+                               FontWeight="Regular"
+                               Text="Desc "
+                               />
+                       </StackPanel>
+                   </materialDesign:Card>
+                       <materialDesign:Card Margin="15 0 15 0 ">
+                       <StackPanel Height="200" Width="200">
+                           <Image Source="../App_Logo.png"/>
+                           <TextBlock
+                               FontSize="18"
+                               FontWeight="Medium"
+                               Text="Test1"
+                           />
+                           <TextBlock
+                               FontSize="15"
+                               FontWeight="Regular"
+                               Text="Desc "
+                               />
+                       </StackPanel>
+                   </materialDesign:Card>
+                       <materialDesign:Card Margin="15 0 15 0 ">
+                       <StackPanel Height="200" Width="200">
+                           <Image Source="../App_Logo.png"/>
+                           <TextBlock
+                               FontSize="18"
+                               FontWeight="Medium"
+                               Text="Test1"
+                           />
+                           <TextBlock
+                               FontSize="15"
+                               FontWeight="Regular"
+                               Text="Desc "
+                               />
+                       </StackPanel>
+                   </materialDesign:Card>
+                       <materialDesign:Card Margin="15 0 15 0 ">
+                       <StackPanel Height="200" Width="200">
+                           <Image Source="../App_Logo.png"/>
+                           <TextBlock
+                               FontSize="18"
+                               FontWeight="Medium"
+                               Text="Test1"
+                           />
+                           <TextBlock
+                               FontSize="15"
+                               FontWeight="Regular"
+                               Text="Desc "
+                               />
+                       </StackPanel>
+                   </materialDesign:Card>
+                       
+                   </WrapPanel>
+                   </hc:ScrollViewer>
+               </StackPanel>
+                
+            </materialDesign:Card>
+        </StackPanel>
+    </Grid>
+    </ScrollViewer>
+</Page>

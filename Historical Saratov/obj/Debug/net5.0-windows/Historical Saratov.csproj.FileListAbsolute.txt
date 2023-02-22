@@ -1,0 +1,89 @@
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.csproj.AssemblyReference.cache
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\MainWindow.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov_MarkupCompile.cache
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov_MarkupCompile.lref
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Historical Saratov.exe
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Historical Saratov.deps.json
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Historical Saratov.runtimeconfig.json
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Historical Saratov.runtimeconfig.dev.json
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Historical Saratov.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\ref\Historical Saratov.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Historical Saratov.pdb
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Microsoft.Xaml.Behaviors.dll
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\App.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\App.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\MainWindow.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.g.resources
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.AssemblyInfoInputs.cache
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.AssemblyInfo.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.csproj.CoreCompileInputs.cache
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.csproj.CopyComplete
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.dll
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\ref\Historical Saratov.dll
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.pdb
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Historical Saratov.genruntimeconfig.cache
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\SplashScreen.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\SplashScreen.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\MainPageUser.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\UserWindow.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\MainPageUser.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\UserWindow.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ListPageUser.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\MapPageUser.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ProfilePageUser.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\SettingPageUser.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ListPageUser.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\MapPageUser.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ProfilePageUser.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\SettingPageUser.baml
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\HandyControl.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Microsoft.Maps.MapControl.WPF.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Google.Protobuf.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\MySql.Data.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\ZstdNet.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\comerr64.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\gssapi64.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\k5sprt64.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\krb5_64.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\krbcc64.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\ErrorMB.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\ErrorMB.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\UserNotFoundMB.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\UserNotFoundMB.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\RegisterWindow.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\RegisterWindow.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\ChapchaMB.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\ChapchaMB.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\DeleteAlert.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\CustomMessageBox\DeleteAlert.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\AdminWindow.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\AdminWindow.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\MainPageAdmin.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\MainPageAdmin.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ArchPageAdmin.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\BuildPageAdmin.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ArchPageAdmin.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\BuildPageAdmin.baml
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ProfilePageAdmin.g.cs
+F:\C#\Historical Saratov\Historical Saratov\obj\Debug\net5.0-windows\Pages\ProfilePageAdmin.baml
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\CommonWin32.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\ModernWPF.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\ModernWPF.Mvvm.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Extras.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Platform.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\System.Windows.Interactivity.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\ja\ModernWPF.resources.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\zh-Hans\ModernWPF.resources.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\zh-Hant\ModernWPF.resources.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\FileSignatures.dll
+F:\C#\Historical Saratov\Historical Saratov\bin\Debug\net5.0-windows\OpenMcdf.dll

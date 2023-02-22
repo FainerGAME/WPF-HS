@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <RootNamespace>Historical_Saratov</RootNamespace>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FileSignatures" Version="4.4.0" />
+      <PackageReference Include="HandyControls" Version="3.4.4" />
+      <PackageReference Include="MaterialDesignThemes" Version="4.8.0-ci161" />
+      <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
+      <PackageReference Include="ModernWPF.Mvvm" Version="0.7.5" />
+      <PackageReference Include="MySql.Data" Version="8.0.32" />
+    </ItemGroup>
+
+</Project>

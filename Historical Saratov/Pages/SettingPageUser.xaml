@@ -1,0 +1,135 @@
+﻿<Page x:Class="Historical_Saratov.Pages.SettingPageUser"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Historical_Saratov.Pages"
+      mc:Ignorable="d"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{x:Null}"
+      Title="SettingPageUser" Height="450" Width="800">
+      <ScrollViewer>
+            <materialDesign:Card Margin="20 10 125 10">
+                <StackPanel>
+                    <Expander
+                        HorizontalAlignment="Stretch"
+                        Margin="0 10 0 0"
+                        Header="Application Style">
+                        <StackPanel
+                            Margin="24,8,24,16"
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}">
+                           <TextBlock Text="Nothing"/>
+                        </StackPanel>
+                    </Expander>
+                    <Expander
+                        HorizontalAlignment="Stretch"
+                        Margin="0 10 0 0"
+                        Header="Profile Setting">
+                        <StackPanel
+                            Orientation="Vertical"
+                            TextBlock.Foreground="{DynamicResource MaterialDesignBody}">
+                           <WrapPanel>
+                               <StackPanel>
+                                   <Image Height="200" Width="200" Margin="20 20 0 0" x:Name="AvatarEdit"/>
+                                   <WrapPanel>
+                                       <Button
+                                           Margin="10 0 10 10"
+                                           Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                                           materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                           materialDesign:ButtonAssist.CornerRadius="10"
+                                           Width="50"
+                                           FontSize="16"
+                                           x:Name="Btn_SelectImg"
+                                           Click="Btn_SelectImg_OnClick"
+                                       >
+                                           <materialDesign:PackIcon Kind="FileImage" />
+                                       </Button>
+                                       <Button
+                                           Margin="0 0 10 10"
+                                           Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                                           materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                           materialDesign:ButtonAssist.CornerRadius="10"
+                                           Width="50"
+                                           FontSize="16"
+                                           x:Name="Btn_AddImg"
+                                           Click="Btn_AddImg_OnClick"
+                                       >
+                                           <materialDesign:PackIcon Kind="ImagePlus" />
+                                       </Button>
+                                   </WrapPanel>
+                                   <TextBox x:Name="ImageBox" Visibility="Hidden"/>
+                               </StackPanel>
+                               <TextBox
+                                   x:Name="TB_FirstName"
+                                   Margin="10 80 0 0"
+                                   Height="60"
+                                   Width="180"
+                                   FontSize="18"
+                                   materialDesign:HintAssist.Hint="Edit FirstName"
+                                   BorderThickness="2"
+                                   BorderBrush="{DynamicResource MaterialDesignDivider}"
+                                   Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                               />
+                               <TextBox
+                                   Margin="10 80 0 0"
+                                   x:Name="TB_LastName"
+                                   Height="60"
+                                   Width="180"
+                                   FontSize="18"
+                                   materialDesign:HintAssist.Hint="Edit LastName"
+                                   BorderThickness="2"
+                                   BorderBrush="{DynamicResource MaterialDesignDivider}"
+                                   Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                               />
+                               <Label x:Name="ID_Label" Visibility="Hidden"/>
+                           </WrapPanel>
+                            <WrapPanel>
+                                <Button
+                                    Margin="10 0 10 0"
+                                    Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                                    materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                    Height="30"
+                                    Width="120"
+                                    materialDesign:ButtonAssist.CornerRadius="10"
+                                    FontSize="16"
+                                    Content="LOG OUT"
+                                    x:Name="Btn_LogOut"
+                                    Click="Btn_LogOut_OnClick"
+                                />
+                                <Button
+                                    Margin="0 0 10 0"
+                                    Style="{StaticResource MaterialDesignFlatMidBgButton}"
+                                    materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                    Height="30"
+                                    Width="120"
+                                    materialDesign:ButtonAssist.CornerRadius="10"
+                                    FontSize="16"
+                                    Content="SAVE"
+                                    x:Name="Btn_EditProfile"
+                                    Click="Btn_EditProfile_OnClick"
+                                />
+                                <Button
+                                    Background="Crimson"
+                                    materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                    Height="30"
+                                    Width="120"
+                                    materialDesign:ButtonAssist.CornerRadius="10"
+                                    FontSize="16"
+                                    Content="Delete"
+                                    x:Name="Btn_DeleteProfile"
+                                    Click="Btn_DeleteProfile_OnClick"
+                                />
+                            </WrapPanel>
+                            <materialDesign:Snackbar
+                                IsActive="False"
+                                x:Name="EditSnackbar"
+                                MessageQueue="{materialDesign:MessageQueue}"
+                            />
+                        </StackPanel>
+                    </Expander>
+                </StackPanel>
+            </materialDesign:Card>
+      </ScrollViewer>
+</Page>

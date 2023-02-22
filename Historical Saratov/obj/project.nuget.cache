@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "dgSpecHash": "gJXQp3bgM25Z2ZygAsEZjn1Jq1pOfx3g+fjJoIrVxXOZB4jqlyf4wkGNVZTZ0cowqqkEOzeqFivFSXaDmr+trQ==",
+  "success": true,
+  "projectFilePath": "F:\\C#\\Historical Saratov\\Historical Saratov\\Historical Saratov.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\commonwin32\\2.0.5.6\\commonwin32.2.0.5.6.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\filesignatures\\4.4.0\\filesignatures.4.4.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\handycontrols\\3.4.4\\handycontrols.3.4.4.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\materialdesigncolors\\2.1.2-ci161\\materialdesigncolors.2.1.2-ci161.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\materialdesignthemes\\4.8.0-ci161\\materialdesignthemes.4.8.0-ci161.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.maps.mapcontrol.wpf\\1.0.0.3\\microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.windowsapicodepack-shell\\1.1.0\\microsoft.windowsapicodepack-shell.1.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\modernwpf\\1.3.5\\modernwpf.1.3.5.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\modernwpf.mvvm\\0.7.5\\modernwpf.mvvm.0.7.5.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\mvvmlightlibs\\5.1.1\\mvvmlightlibs.5.1.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\mysql.data\\8.0.32\\mysql.data.8.0.32.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\openmcdf\\2.2.1.9\\openmcdf.2.2.1.9.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.runtime.loader\\4.3.0\\system.runtime.loader.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CommonWin32 2.0.5.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CommonWin32",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Maps.MapControl.WPF 1.0.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Maps.MapControl.WPF",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.WindowsAPICodePack-Shell 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.WindowsAPICodePack-Shell",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ModernWPF 1.3.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ModernWPF",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ModernWPF.Mvvm 0.7.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ModernWPF.Mvvm",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MvvmLightLibs 5.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
